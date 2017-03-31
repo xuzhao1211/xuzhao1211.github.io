@@ -1,21 +1,30 @@
-<footer class="site-footer">
-  <div class="wrapper">
-    <p class="copy">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
-  </div>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <ul class="list-inline">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted small">{{ site.copyright }}</p>
+            </div>
+            <div class="col-md-4">
+                {{ site.credits }}
+            </div>
+        </div>
+    </div>
 </footer>
-<amp-analytics type="googleanalytics" id="analytics1">
-<script type="application/json">
-{
-  "vars": {
-    "account": "{{ site:GoogleAnalytics }}"
-  },
-  "triggers": {
-    "trackPageview": {
-      "on": "visible",
-      "request": "pageview"
-    }
-  }
-}
-</script>
-</amp-analytics>
-<amp-install-serviceworker src="{{ site.baseurl | prepend: site.url }}/sw.js" layout="nodisplay"></amp-install-serviceworker>

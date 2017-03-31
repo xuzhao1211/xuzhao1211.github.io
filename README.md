@@ -1,33 +1,35 @@
-# Emping - Amp theme for jekyll
-An Amphtml theme for your jekyll blog, based on default Jekyll theme. Theme design inspired from the Jekyll [Kactus](https://github.com/nickbalestra/kactus) theme.
+# Landing Page Jekyll theme
 
-![screenshoot](https://github.com/rmsubekti/emping/raw/master/Screenshot.png)
+Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
 
-### Feature
+## How to use
+ - Place a image in `/img/services/`
+ - Create posts to display your services. Use the follow as an example:
 
-- [x] **Amp Page**
-- [x] **Google Analytics**
-- [x] **Pagination**
-- [x] **404 Error Page**
-- [x] **SEO** Gems: *[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap), [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), [jekyll-feed](https://github.com/jekyll/jekyll-feed)*
-- [x] **Share Button**
-
-### [View Demo](http://rmsubekti.github.io/emping)
-
-### Use this theme
-Simply fork this repo, and rename to `your_github_username.github.io`.
-
-### Run this theme on your local machine
-To serve this jekyll theme make sure your computer meets the [following requirements](https://jekyllrb.com/docs/installation/#requirements), then run this command.
-
-```
-git clone git@github.com:rmsubekti/emping.git
-cd emping
-bundle install
-bundle exec jekyll s
+```txt
+---
+layout: default
+img: ipad.png
+category: Services
+title: The service title
+---
+The description of this service
 ```
 
-You can change the site configuration in the [_config.yml](https://github.com/rmsubekti/emping/blob/master/_config.yml) file.
+## Demo
+View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
 
-License : [MIT](https://github.com/rmsubekti/emping/blob/master/LICENSE.md)
-Feel free to fork, change, modify and re-use it.
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
+
+===
+
+For more Jekyll details, read [documentation](http://jekyllrb.com/).
+This Jekyll theme used [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme/) as reference.
+
+## License
+The contents of this repository are licensed under the [Apache
+2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+
+## Version
+1.0.1
