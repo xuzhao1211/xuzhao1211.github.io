@@ -2,9 +2,7 @@
 layout: default
 img: dog.png
 category: Services
-title: 3D Device Mockups<br>by PSDCovers
+title: 算法优化
 description: |
 ---
-  Turn your 2D designs into high quality, 3D
-  product shots in seconds using free Photoshop actions by [PSDCovers](http://www.psdcovers.com/)! Visit
-  their website to download some of their awesome, free photoshop actions!
+  每个系统都会有一个性能瓶颈,如果现在没有，哪么只是还没有遇到而已。到哪一天只有算法才能救你。算法是一个大型可商用系统无法避开的问题

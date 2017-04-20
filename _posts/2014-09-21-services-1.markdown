@@ -2,7 +2,7 @@
 layout: default
 img: ipad.png
 category: Services
-title: Death to the Stock Photo:<br>Special Thanks
+title: 系统架构设计
 description: |
 ---
-  A special thanks to [Death to the Stock Photo](http://join.deathtothestockphoto.com/) for providing the photographs that you see in this template.  Visit their website to become a member!
+  开发任务系统首要考虑会有多少用户来使用，未来一到两年用户增长为多少，这个数字关系统你的系统架构,架构能决定最络的成本是多少.
