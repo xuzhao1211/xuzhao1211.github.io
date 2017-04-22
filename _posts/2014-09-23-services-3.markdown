@@ -1,6 +1,6 @@
 ---
 layout: default
-img: phones.png
+img: http://i1.piimg.com/567571/5adf0863f0534403.png
 category: Services
 title: 团队建设
 description: |
