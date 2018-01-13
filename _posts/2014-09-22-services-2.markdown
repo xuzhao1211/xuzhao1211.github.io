@@ -1,6 +1,6 @@
 ---
 layout: default
-img: http://i2.muimg.com/567571/6ed096cf7097beeb.png
+img: img/services/ipad.png
 category: Services
 title: 算法优化
 description: |

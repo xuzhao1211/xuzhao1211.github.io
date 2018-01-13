@@ -1,6 +1,6 @@
 ---
 layout: default
-img: http://i1.piimg.com/567571/0d590f41442d883f.png
+img: img/services/dog.png
 category: Services
 title: 系统架构设计
 description: |
